@@ -9,8 +9,15 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
+PACKAGES=(
+  kitty
+  solaar
+)
+
 # this installs a package from fedora repos
-dnf5 install -y tmux 
+log "Installing packages using dnf5..."
+dnf5 install --setopt=install_weak_deps=False -y \
+	${PACKAGES[@]}
 
 # Use a COPR Example:
 #
@@ -21,4 +28,4 @@ dnf5 install -y tmux
 
 #### Example for enabling a System Unit File
 
-systemctl enable podman.socket
+#systemctl enable podman.socket
