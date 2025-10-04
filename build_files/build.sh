@@ -2,6 +2,10 @@
 
 set -ouex pipefail
 
+log() {
+  echo "=== $* ==="
+}
+
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
@@ -17,7 +21,7 @@ PACKAGES=(
 # this installs a package from fedora repos
 log "Installing packages using dnf5..."
 dnf5 install --setopt=install_weak_deps=False -y \
-	${PACKAGES[@]}
+  ${PACKAGES[@]}
 
 # Use a COPR Example:
 #
