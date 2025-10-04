@@ -19,10 +19,19 @@ PACKAGES=(
   solaar
 )
 
+REMOVALS={
+  firewalld
+)
+
 # this installs a package from fedora repos
 log "Installing packages using dnf5..."
 dnf5 install --setopt=install_weak_deps=False -y \
   ${PACKAGES[@]}
+
+# this removes packages we do not like
+log "Removing packages using dnf5..."
+dnf5 remove -y \
+  ${REMOVALS[@]}
 
 # Use a COPR Example:
 #
