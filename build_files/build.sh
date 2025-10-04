@@ -15,6 +15,7 @@ log() {
 
 PACKAGES=(
   kitty
+  shorewall
   solaar
 )
 
