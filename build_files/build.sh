@@ -19,7 +19,7 @@ PACKAGES=(
   solaar
 )
 
-REMOVALS={
+REMOVALS=(
   firewalld
 )
 
