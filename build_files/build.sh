@@ -35,12 +35,12 @@ log "Removing packages using dnf5..."
 dnf5 remove -y \
   ${REMOVALS[@]}
 
-# Use a COPR Example:
+# Use a COPR
 #
-# dnf5 -y copr enable ublue-os/staging
-# dnf5 -y install package
+dnf5 -y copr enable taw/joplin
+dnf5 install -y joplin
 # Disable COPRs so they don't end up enabled on the final image:
-# dnf5 -y copr disable ublue-os/staging
+dnf5 -y copr disable taw/joplin
 
 #### Example for enabling a System Unit File
 
