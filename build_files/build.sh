@@ -15,12 +15,14 @@ log() {
 
 PACKAGES=(
   kitty
+  pacrunner
   shorewall
   solaar
 )
 
 REMOVALS=(
   firewalld
+  starship
 )
 
 # this installs a package from fedora repos
