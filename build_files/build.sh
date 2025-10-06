@@ -14,6 +14,7 @@ log() {
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 PACKAGES=(
+  incus
   kitty
   pacrunner
   shorewall
@@ -36,7 +37,6 @@ dnf5 remove -y \
   ${REMOVALS[@]}
 
 # Use a COPR
-#
 dnf5 -y copr enable taw/joplin
 dnf5 install -y joplin
 # Disable COPRs so they don't end up enabled on the final image:
