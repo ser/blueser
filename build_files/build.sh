@@ -15,9 +15,11 @@ PACKAGES=(
   gnome-tweaks
   incus
   kitty
+  netcat
   pacrunner
   shorewall
   solaar
+  virt-install
 )
 
 REMOVALS=(
