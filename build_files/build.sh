@@ -12,6 +12,7 @@ log() {
 # RPMfusion repos are available by default in ublue main images
 
 PACKAGES=(
+  git-crypt
   gnome-tweaks
   incus
   kitty
