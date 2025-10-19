@@ -18,6 +18,7 @@ PACKAGES=(
   kitty
   netcat
   pacrunner
+  pssh
   shorewall
   solaar
   virt-install
