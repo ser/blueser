@@ -20,6 +20,7 @@ PACKAGES=(
   pacrunner
   pssh
   shorewall
+  snapd
   solaar
   virt-install
 )
