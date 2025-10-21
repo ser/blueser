@@ -12,17 +12,20 @@ log() {
 # RPMfusion repos are available by default in ublue main images
 
 PACKAGES=(
+  genisoimage
   git-crypt
   gnome-tweaks
   incus
   kitty
   netcat
   pacrunner
+  perl-hivex
   pssh
   shorewall
   snapd
   solaar
   virt-install
+  wimlib-utils
 )
 
 REMOVALS=(
