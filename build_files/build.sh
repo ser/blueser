@@ -12,6 +12,7 @@ log() {
 # RPMfusion repos are available by default in ublue main images
 
 PACKAGES=(
+  chromium
   genisoimage
   git-crypt
   gnome-tweaks
@@ -52,4 +53,4 @@ dnf5 -y copr disable taw/joplin
 
 #### Example for enabling a System Unit File
 
-#systemctl enable podman.socket
+#systemctl enable docker.socket
