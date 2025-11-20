@@ -8,10 +8,20 @@ log() {
 
 ### Install packages
 
+# Add Google repo for antigravity
+tee /etc/yum.repos.d/antigravity.repo << EOL
+[antigravity-rpm]
+name=Antigravity RPM Repository
+baseurl=https://us-central1-yum.pkg.dev/projects/antigravity-auto-updater-dev/antigravity-rpm
+enabled=1
+gpgcheck=0
+EOL
+
 # Packages can be installed from any enabled yum repo on the image.
 # RPMfusion repos are available by default in ublue main images
 
 PACKAGES=(
+  antigravity
   chromium
   genisoimage
   git-crypt
