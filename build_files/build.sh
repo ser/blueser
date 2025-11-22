@@ -65,7 +65,3 @@ dnf5 install -y joplin nix
 # Disable COPRs so they don't end up enabled on the final image:
 dnf5 -y copr disable taw/joplin
 dnf5 -y copr disable petersen/nix
-
-#### Example for enabling a System Unit File
-systemctl enable nix-daemon
-#systemctl enable docker.socket
