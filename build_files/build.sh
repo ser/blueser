@@ -28,6 +28,7 @@ PACKAGES=(
   gnome-tweaks
   incus
   kitty
+  libatomic
   netcat
   pacrunner
   perl-hivex
