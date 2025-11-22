@@ -27,8 +27,8 @@ PACKAGES=(
   git-crypt
   gnome-tweaks
   incus
+  libpq-devel
   kitty
-  libatomic
   netcat
   pacrunner
   perl-hivex
