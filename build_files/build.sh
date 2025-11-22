@@ -30,6 +30,7 @@ PACKAGES=(
   libpq-devel
   kitty
   netcat
+  nix
   pacrunner
   perl-hivex
   pssh
