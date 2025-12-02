@@ -59,10 +59,12 @@ dnf5 remove -y \
 # Use a COPR
 dnf5 -y copr enable taw/joplin
 dnf5 -y copr enable petersen/nix
+dnf5 -y copr enable 0x444d/looking-glass 
 
 # Install from COPRs
-dnf5 install -y joplin nix
+dnf5 install -y joplin looking-glass-client nix
 
 # Disable COPRs so they don't end up enabled on the final image:
 dnf5 -y copr disable taw/joplin
 dnf5 -y copr disable petersen/nix
+dnf5 -y copr disable 0x444d/looking-glass 
