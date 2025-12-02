@@ -37,6 +37,7 @@ PACKAGES=(
   snapd
   solaar
   virt-install
+  virt-manager
   wimlib-utils
 )
 
