@@ -48,6 +48,7 @@ PACKAGES=(
 	shorewall
 	snapd
 	solaar
+	strace
 	virt-install
 	virt-manager
 	wimlib-utils
