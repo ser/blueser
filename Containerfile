@@ -1,6 +1,3 @@
-# Copy application launcher file(s)
-COPY apps/*.desktop /usr/share/applications/
-
 # Allow build scripts to be referenced without being copied into the final image
 FROM scratch AS ctx
 COPY build_files /
@@ -19,6 +16,9 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     --mount=type=tmpfs,dst=/tmp \
     /ctx/build.sh
     
+# Copy application launcher file(s)
+#COPY apps/*.desktop /usr/share/applications/
+
 ### LINTING
 ## Verify final image and contents are correct.
 RUN bootc container lint
