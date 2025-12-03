@@ -44,7 +44,6 @@ PACKAGES=(
 	netcat
 	pacrunner
 	perl-hivex
-	proot
 	pssh
 	shorewall
 	snapd
