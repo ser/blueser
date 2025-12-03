@@ -17,7 +17,7 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     /ctx/build.sh
     
 # Copy application launcher file(s)
-COPY files/usr/share/applications/LookingGlass.desktop /usr/share/applications/
+COPY files/usr/share/applications/CNEWindows.desktop /usr/share/applications/
 
 
 ### LINTING
