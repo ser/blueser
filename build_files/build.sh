@@ -17,6 +17,16 @@ enabled=1
 gpgcheck=0
 EOL
 
+# Add MS repo for edge
+tee /etc/yum.repos.d/edge.repo << EOL
+[edge-rpm]
+name=Edge RPM Repository
+baseurl=https://packages.microsoft.com/yumrepos/edge/
+enabled=1
+gpgcheck=0
+EOL
+
+
 # Packages can be installed from any enabled yum repo on the image.
 # RPMfusion repos are available by default in ublue main images
 
@@ -26,9 +36,11 @@ PACKAGES=(
   genisoimage
   git-crypt
   gnome-tweaks
+  htop
   incus
   libpq-devel
   kitty
+  microsoft-edge-stable
   netcat
   pacrunner
   perl-hivex
