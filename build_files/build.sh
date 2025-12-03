@@ -31,6 +31,7 @@ EOL
 
 PACKAGES=(
 	antigravity
+	bubblewrap
 	chromium
 	genisoimage
 	git-crypt
@@ -43,6 +44,7 @@ PACKAGES=(
 	netcat
 	pacrunner
 	perl-hivex
+	proot
 	pssh
 	shorewall
 	snapd
