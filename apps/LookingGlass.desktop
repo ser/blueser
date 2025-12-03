@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=CNE Windows
+Exec=/opt/winda.sh
+Categories=Utility;
+X-Purism-FormFactor=Workstation;
+Icon=qemu
+NoDisplay=false

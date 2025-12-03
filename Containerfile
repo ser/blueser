@@ -1,3 +1,6 @@
+# Copy application launcher file(s)
+COPY apps/*.desktop /usr/share/applications/
+
 # Allow build scripts to be referenced without being copied into the final image
 FROM scratch AS ctx
 COPY build_files /
