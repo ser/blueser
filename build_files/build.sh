@@ -74,10 +74,11 @@ dnf5 -y copr enable taw/joplin
 #dnf5 -y copr enable petersen/nix
 dnf5 -y copr enable 0x444d/looking-glass
 dnf5 -y copr enable agriffis/neovim-nightly
+dnf5 -y copr enable gigirassy/zellij 
 
 # Install from COPRs
 dnf5 install --setopt=install_weak_deps=False -y \
-	joplin looking-glass-client neovim python3-neovim
+	joplin looking-glass-client neovim python3-neovim zellij
 #nix
 
 # Disable COPRs so they don't end up enabled on the final image:
@@ -85,3 +86,4 @@ dnf5 -y copr disable taw/joplin
 #dnf5 -y copr disable petersen/nix
 dnf5 -y copr disable 0x444d/looking-glass
 dnf5 -y copr disable agriffis/neovim-nightly
+dnf5 -y copr disable gigirassy/zellij
