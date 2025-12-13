@@ -33,6 +33,7 @@ PACKAGES=(
 	antigravity
 	bubblewrap
 	chromium
+	fd-find
 	genisoimage
 	git-crypt
 	gnome-tweaks
@@ -42,6 +43,7 @@ PACKAGES=(
 	kitty
 	#microsoft-edge-stable
 	netcat
+	nmap
 	pacrunner
 	perl-hivex
 	pssh
@@ -56,6 +58,7 @@ PACKAGES=(
 
 REMOVALS=(
 	firewalld
+	nano
 	starship
 )
 
