@@ -39,6 +39,8 @@ PACKAGES=(
 	genisoimage
 	git-crypt
 	gnome-tweaks
+	gupnp
+	gupnp-dlna
 	htop
 	incus
 	libpq-devel
