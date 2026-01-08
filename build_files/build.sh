@@ -53,6 +53,7 @@ PACKAGES=(
 	strace
 	virt-install
 	virt-manager
+	vlc
 	vlc-cli
 	vlc-gui-ncurses
 	vlc-gui-qt
