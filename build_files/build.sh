@@ -33,6 +33,8 @@ PACKAGES=(
 	antigravity
 	bubblewrap
 	chromium
+	deluge
+	dleyna
 	fd-find
 	genisoimage
 	git-crypt
@@ -47,6 +49,7 @@ PACKAGES=(
 	pacrunner
 	perl-hivex
 	pssh
+	rygel
 	shorewall
 	snapd
 	solaar
