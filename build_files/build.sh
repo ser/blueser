@@ -41,6 +41,7 @@ PACKAGES=(
 	gnome-tweaks
 	gupnp
 	gupnp-dlna
+	gupnp-tools
 	htop
 	incus
 	libpq-devel
