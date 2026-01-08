@@ -54,6 +54,8 @@ PACKAGES=(
 	virt-install
 	virt-manager
 	vlc-cli
+	vlc-gui-ncurses
+	vlc-gui-qt
 	vlc-plugins-all
 	wimlib-utils
 )
