@@ -53,6 +53,8 @@ PACKAGES=(
 	strace
 	virt-install
 	virt-manager
+	vlc-cli
+	vlc-plugins-all
 	wimlib-utils
 )
 
