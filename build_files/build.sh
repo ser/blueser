@@ -39,6 +39,7 @@ PACKAGES=(
 	genisoimage
 	git-crypt
 	gnome-tweaks
+	gssdp
 	gupnp
 	gupnp-dlna
 	gupnp-tools
