@@ -66,6 +66,8 @@ PACKAGES=(
 	vlc-gui-qt
 	vlc-plugins-all
 	wimlib-utils
+	wireshark
+	wireshark-cli
 )
 
 REMOVALS=(
