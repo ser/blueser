@@ -57,6 +57,7 @@ PACKAGES=(
 	shorewall
 	snapd
 	solaar
+	spice-gtk
 	strace
 	virt-install
 	virt-manager
