@@ -45,6 +45,7 @@ PACKAGES=(
 	gupnp-tools
 	htop
 	incus
+	incus-agent
 	libpq-devel
 	kitty
 	#microsoft-edge-stable
