@@ -31,6 +31,7 @@ EOL
 
 PACKAGES=(
 	antigravity
+	ansible
 	bubblewrap
 	chromium
 	deluge
