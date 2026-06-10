@@ -59,6 +59,8 @@ PACKAGES=(
 	solaar
 	spice-gtk
 	strace
+	swtpm
+	swtpm-tools
 	virt-install
 	virt-manager
 	vlc
