@@ -45,8 +45,6 @@ PACKAGES=(
 	gupnp-dlna
 	gupnp-tools
 	htop
-	incus
-	incus-agent
 	libpq-devel
 	kitty
 	#microsoft-edge-stable
@@ -95,10 +93,11 @@ dnf5 -y copr enable taw/joplin
 dnf5 -y copr enable 0x444d/looking-glass
 dnf5 -y copr enable agriffis/neovim-nightly
 dnf5 -y copr enable gigirassy/zellij 
+dnf5 -y copr enable jurav59/incus
 
 # Install from COPRs
 dnf5 install --setopt=install_weak_deps=False -y \
-	joplin looking-glass-client neovim python3-neovim zellij
+	incus incus-agent incus-tools incus-client incus-ui joplin looking-glass-client neovim python3-neovim zellij
 #nix
 
 # Disable COPRs so they don't end up enabled on the final image:
@@ -107,3 +106,4 @@ dnf5 -y copr disable taw/joplin
 dnf5 -y copr disable 0x444d/looking-glass
 dnf5 -y copr disable agriffis/neovim-nightly
 dnf5 -y copr disable gigirassy/zellij
+dnf5 -y copr disable jurav59/incus
