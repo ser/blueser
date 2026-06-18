@@ -26,6 +26,15 @@ enabled=1
 gpgcheck=0
 EOL
 
+# Add RustConn
+tee /etc/yum.repos.d/rustconn.repo <<EOL
+[rustconn]
+name=RustConn RPM Repository
+baseurl=https://download.opensuse.org/repositories/home:/totoshko88:/rustconn/Fedora_44/home:totoshko88:rustconn.repo
+enabled=1
+gpgcheck=0
+EOL
+
 # Packages can be installed from any enabled yum repo on the image.
 # RPMfusion repos are available by default in ublue main images
 
@@ -53,6 +62,7 @@ PACKAGES=(
 	pacrunner
 	perl-hivex
 	pssh
+	rustconn
 	rygel
 	shorewall
 	snapd
