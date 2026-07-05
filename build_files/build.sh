@@ -45,6 +45,7 @@ PACKAGES=(
 	gupnp-dlna
 	gupnp-tools
 	htop
+	imput-leap
 	libpq-devel
 	kitty
 	#microsoft-edge-stable
