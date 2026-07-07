@@ -39,6 +39,7 @@ PACKAGES=(
 	fd-find
 	genisoimage
 	git-crypt
+	gnome-commander
 	gnome-tweaks
 	gssdp
 	gupnp
