@@ -65,6 +65,7 @@ PACKAGES=(
 	swtpm-tools
 	virt-install
 	virt-manager
+	virt-viewer
 	vlc
 	vlc-cli
 	vlc-gui-ncurses
